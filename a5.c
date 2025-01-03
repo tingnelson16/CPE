@@ -15,7 +15,6 @@ int main() {
         } else if (b == -1) {
             wrong++;
         }
-
     }
     int total;
     total = max_score - k - wrong * 2;
@@ -24,7 +23,7 @@ int main() {
         total = 0;
     }
 
-    printf("%d %d", total, times);
+    printf("%d %d\n", total, times);
     
     return 0;
 }
